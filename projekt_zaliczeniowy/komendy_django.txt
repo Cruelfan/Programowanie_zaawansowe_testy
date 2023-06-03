@@ -1,0 +1,20 @@
+1. Uruchomienie aplikacji:
+python manage.py runserver
+
+2. Utworzenie szkieletu aplikacji:
+python manage.py startapp <nazwa>
+
+3. By stworzyć tabele w bazie danych:
+python manage.py migrate
+
+4. Uruchom gdy zrobisz zmiany w modelu/modelach (models.py) :
+python manage.py makemigrations polls
+
+5. API Shell:
+python manage.py shell
+
+6. Tworzenie usera (do admina):
+python manage.py createsuperuser
+
+7. Włącz automaty (testy):
+python manage.py test polls
